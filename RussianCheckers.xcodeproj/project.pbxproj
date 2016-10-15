@@ -14,6 +14,8 @@
 		84413C681DABE66100248149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84413C671DABE66100248149 /* Assets.xcassets */; };
 		84413C6B1DABE66100248149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84413C691DABE66100248149 /* LaunchScreen.storyboard */; };
 		84413C771DABF70B00248149 /* wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84413C761DABF70B00248149 /* wood.jpg */; };
+		84F398E21DACCEC4001D53C9 /* BlackChecker.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F398E01DACCEC4001D53C9 /* BlackChecker.png */; };
+		84F398E31DACCEC4001D53C9 /* WhiteChecker.png in Resources */ = {isa = PBXBuildFile; fileRef = 84F398E11DACCEC4001D53C9 /* WhiteChecker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		84413C6A1DABE66100248149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84413C6C1DABE66100248149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84413C761DABF70B00248149 /* wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpg; sourceTree = "<group>"; };
+		84F398E01DACCEC4001D53C9 /* BlackChecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlackChecker.png; sourceTree = "<group>"; };
+		84F398E11DACCEC4001D53C9 /* WhiteChecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteChecker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		84413C751DABF70B00248149 /* ImagesFile */ = {
 			isa = PBXGroup;
 			children = (
+				84F398E01DACCEC4001D53C9 /* BlackChecker.png */,
+				84F398E11DACCEC4001D53C9 /* WhiteChecker.png */,
 				84413C761DABF70B00248149 /* wood.jpg */,
 			);
 			path = ImagesFile;
@@ -150,7 +156,9 @@
 				84413C771DABF70B00248149 /* wood.jpg in Resources */,
 				84413C6B1DABE66100248149 /* LaunchScreen.storyboard in Resources */,
 				84413C681DABE66100248149 /* Assets.xcassets in Resources */,
+				84F398E31DACCEC4001D53C9 /* WhiteChecker.png in Resources */,
 				84413C661DABE66100248149 /* Main.storyboard in Resources */,
+				84F398E21DACCEC4001D53C9 /* BlackChecker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +322,7 @@
 				84413C711DABE66100248149 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
